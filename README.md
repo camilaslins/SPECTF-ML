@@ -87,11 +87,11 @@ Consider once again the **SPECTF dataset** with **two a priori classes**.
 
 For each assessment metric, plot the learning curve for the Gaussian Bayesian classifier. Using stratified sampling, use 70% of the data for training and 30% for testing. Train the algorithm with sets training from 5% to 100% of the original training set, with step of 5% (using stratified sampling). Comment.
 
+Observation:
+For the k-NN algorithm, consider the Euclidean, City-Block and Chebishev distances to define the neighbourhood. Use cross-validation techniques to fixate the parameters k and the distance.
+
 Team: 
 Beatriz Andrade de Miranda (bam2@cin.ufpe.br),
 Camila Siqueira Lins (csl2@cin.ufpe.br),
 Luisa Cavalcante (lncc@cin.ufpe.br) and
 Nicolly Lira Albuquerque (nla@cin.ufpe.br)
-Observation
-
-For the k-NN algorithm, consider the Euclidean, City-Block and Chebishev distances to define the neighbourhood. Use cross-validation techniques to fixate the parameters k and the distance.
